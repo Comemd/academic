@@ -2,7 +2,7 @@ BIG-M PYTHON INTERFACE
 
 **INTRODUCTION**
 
-This project was initially made in my Optimization lessons.
+This project was initially made in my Optimisation lessons.
 It is aiming to implement the big-M method in Python, with an easy to use interface.
 There are also three presets available, extracted from an evaluation.
 This project should be able to solve any problem with N variables and M constrincts.
