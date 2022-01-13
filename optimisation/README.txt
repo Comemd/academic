@@ -65,6 +65,7 @@ To run the project you only need :
 - Python 3
 - A Python IDE
 - "pandas" and "PyQt5" libraries
+Then you just have to run "simplex_widgets.py".
 
 
 
