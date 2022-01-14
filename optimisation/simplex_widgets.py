@@ -102,7 +102,7 @@ class Questions(QWidget):
                    ]
             method = 'mini'
         self.table = Table(len(vari),len(con)-1,method)
-        self.table.asset(vari,func,con)
+        self.table.presets(vari,func,con)
         self.table.show()
         
 class Choice(QWidget):
@@ -217,7 +217,7 @@ class Table(QWidget):
         self.con.append(L2)
         bigM.simplex(self.vari,self.func,self.con,self.choice)
     
-    def asset(self,vari,func,con):
+    def presets(self,vari,func,con):
         for j in range(len(vari)):
             self.T[0][f'x{j}'].setText(str(func[j]))
         for i in range(len(con)-1):
