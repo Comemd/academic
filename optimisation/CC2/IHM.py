@@ -87,7 +87,7 @@ class Parameters(QWidget):
     def __init__(self,method):
         super().__init__()
         self.method = method
-        self.setWindowTitle('Parameters')
+        self.setWindowTitle('Paramètres')
         self.l0 = QLabel("Vous allez chercher des extremums de la fonction suivante : ")
         self.l1 = QLabel("x**5 -5x**3 -20x +5")
         self.space = QLabel()
