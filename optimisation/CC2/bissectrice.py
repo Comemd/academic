@@ -36,7 +36,7 @@ def bissection(L0,method,e):
     x_final = (L[0]+L[1])/2
     f_final = function(x_final)
     print(df)
-    print(f'TLe {m} trouvé est {f_final} à x = {x_final}')
+    print(f'Le {m} trouvé est {f_final} à x = {x_final}')
     print('---------------------------------------------------')      
 
         
