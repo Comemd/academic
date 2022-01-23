@@ -23,7 +23,7 @@ def nb(x0,s0,sens,i):
     else:
         return x0-(s0*2**i)
     
-def pas_accéléré(x0,s0,ext):
+def pas_accelere(x0,s0,ext):
     i = 0
     x = x0
     x_values = [x0]

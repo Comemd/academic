@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (QLineEdit, QPushButton, QVBoxLayout, QHBoxLayout,
                              QWidget, QRadioButton, QLabel, QGridLayout,
                              QComboBox)
 
-import pas_fixe, pas_accéléré, bissectrice,newton_raphson
+import pas_fixe, pas_accelere, bissectrice,newton_raphson
 
 class Home(QWidget):
     
@@ -162,7 +162,7 @@ class Parameters(QWidget):
         if self.method == 'fixe':
             pas_fixe.pas_fixe(x0,pas,ext)
         elif self.method == 'accel':
-            pas_accéléré.pas_accéléré(x0,pas,ext)
+            pas_accelere.pas_accelere(x0,pas,ext)
         else:
             bissectrice.bissection(L,ext,prec)
             
