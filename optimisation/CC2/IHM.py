@@ -170,7 +170,7 @@ class Q2(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Question 1')
+        self.setWindowTitle('Question 2')
         self.l0 = QLabel("Vous allez calculer l'extremum de la fonction suivante : ")
         self.l3 = QLabel("X**3 -7*X**2 +8*X -3")
         self.l1 = QLabel('Sélectionnez le point de départ : ')   
