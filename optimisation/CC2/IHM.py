@@ -10,7 +10,7 @@ class Home(QWidget):
     
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Home')
+        self.setWindowTitle('Accueil')
         self.l0 = QLabel("Bienvenue dans mon programme de CC2")
         self.l1 = QLabel("Quelle question voulez-vous réaliser ?")
         self.ch1 = QRadioButton("Question 1")
@@ -53,7 +53,7 @@ class Q1(QWidget):
         self.ch1 = QRadioButton("Pas fixe")
         self.ch2 = QRadioButton("Pas accéléré")
         self.ch3 = QRadioButton("Méthode de la bissection")
-        self.beg = QPushButton("Begin")
+        self.beg = QPushButton("Continuer")
         self.space = QLabel()
         self.init_ui()
 
